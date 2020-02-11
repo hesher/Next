@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid green;; */
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  align-items: stretch;
+  padding: 0;
+}
